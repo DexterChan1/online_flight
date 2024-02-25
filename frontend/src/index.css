@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for background image */
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+  .background-image {
+    background-size: 100%; /* Smaller on larger screens */
+  }
+}
+
+
+
+
